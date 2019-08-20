@@ -17,11 +17,11 @@ function App() {
     return (
         <Provider store={store}>
             <Grid container component='main' className='app'>
-                <Grid item xs={4} component={Paper}>
+                <Grid item xs={6} component={Paper}>
                     <Control />
                     <Editor />
                 </Grid>
-                <Grid item xs={8} component={Paper}>
+                <Grid item xs={10} component={Paper}>
                     <Graph />
                 </Grid>
             </Grid>
